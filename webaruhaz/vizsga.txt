@@ -1,0 +1,19 @@
+Készítsen AFA interfacet, ami tartalmazza az áfa értékét. Készítsen double getBruttoAr() metódust a bruttó érték meghatározásához.
+
+Készítsen Termek osztályt, ami megvalósítja az AFA interface-t. Minden termékről tudjuk a nevét, a netto árát (egész szám), a gyártó nevét és a gyártás dátumát.
+Készítsen konstruktort az osztályhoz az adatok feltöltéséhez és toString metódust, ami tartalmazza a bruttó árat is.
+
+A Webaruhaz egy olyan osztály, amiről tudjuk a nevét, a tulajdonost és az adószámot. Készítsen hozzá terméklistát, ahol minden termék csak egyszer szerepelhet.
+Készítsen konstruktorfüggvényt az adatok feltöltéséhez, továbbá public int getNettoOsszesen() és double getBruttoOsszesen() metódusokat a termékek nettó és bruttó össszértékének meghatározására.
+A toString metódust írja felül úgy, hogy tartalmazza ezt a két adatot is, továbbá a termékek darabszámát (hány fajta termék van)
+
+A Kosar osztály tegye lehetővé termékek hozzáadását és törlését, metódusaival tájékoztassa a vásárlót a kosár tartalmáról és a kosarának netto és bruttó összértékéről.
+A fizet() metódussal listázza ki a kosár tartalmát a és bruttó összértéket.
+
+Készítsen teszt osztályt a program VALAMENNYI funkciójának bemutatásával (Webáruházhoz adjon hozzá 4-5 terméket, töröljön belőle, kosár tartalmánál szintúgy)
+
+Plussz pontok:
++1 ha a webáruházban a terméklista név szerint rendezett
++1 ha a webáruházban a terméklistából név szerint lehet keresni termékeket
++1 ha a kivételt vált ki a kosárból és a webáruházból való törlés olyan elemre hivatkozás, ami nincs benne.
++1 ha létrehoz egy Akció osztályt, ami külön kezeli az akciós termékeket. (Ezt nem olvastam el sajnos, nem tudom mit kellett itt csinálni)
