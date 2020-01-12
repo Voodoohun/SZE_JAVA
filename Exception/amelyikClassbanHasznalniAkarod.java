@@ -3,8 +3,9 @@
             if(jorendszam(rendszam)){
                 Jarmu j1=new Jarmu(tulajdonos,rendszam);
                 nyilv.add(j1);
-             }else{ throw new HibasRendszamException();
-
+             }
+             else{ 
+                throw new HibasRendszamException();
              }
         }catch (HibasRendszamException h){
                 System.err.println("Rossz rendszam!");
