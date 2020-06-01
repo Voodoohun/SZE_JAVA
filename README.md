@@ -1,3 +1,3 @@
 # SZE_JAVA
 
-Practice exercises for Java programming exams.
+Exercises for Java programming exams (so, that's why the weird filenames in some cases).
